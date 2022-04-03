@@ -50,7 +50,7 @@ output_path = os.path.join("Analysis", "Results.txt")
 with open(output_path, 'w') as textfile:
     textfile.write("Financial Analysis")
     textfile.write("\n")
-    textfile.write("....................")
+    textfile.write("---------------------")
     textfile.write("\n")
     textfile.write(f"Total Months: {len(total_months)}")
     textfile.write("\n")
